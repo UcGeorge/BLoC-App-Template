@@ -4,7 +4,7 @@ import 'models/postitem_item_model.dart';
 import 'models/trending_posts_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../core/app_export.dart';
 
 class TrendingPostsPage extends StatefulWidget {
   const TrendingPostsPage({Key? key}) : super(key: key);

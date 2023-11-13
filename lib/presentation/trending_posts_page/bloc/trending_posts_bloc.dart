@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import '/core/app_export.dart';
 import '../models/postitem_item_model.dart';
-import 'package:george_u_s_application1/presentation/trending_posts_page/models/trending_posts_model.dart';
+import '../models/trending_posts_model.dart';
 part 'trending_posts_event.dart';
 part 'trending_posts_state.dart';
 

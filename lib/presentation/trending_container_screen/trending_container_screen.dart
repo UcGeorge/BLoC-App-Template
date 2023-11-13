@@ -1,12 +1,13 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
+import '../../widgets/custom_bottom_bar.dart';
+import '../messages_page/messages_page.dart';
+import '../notifications_page/notifications_page.dart';
+import '../profile_page/profile_page.dart';
+import '../trending_tab_container_page/trending_tab_container_page.dart';
 import 'bloc/trending_container_bloc.dart';
 import 'models/trending_container_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/messages_page/messages_page.dart';
-import 'package:george_u_s_application1/presentation/notifications_page/notifications_page.dart';
-import 'package:george_u_s_application1/presentation/profile_page/profile_page.dart';
-import 'package:george_u_s_application1/presentation/trending_tab_container_page/trending_tab_container_page.dart';
-import 'package:george_u_s_application1/widgets/custom_bottom_bar.dart';
 
 // ignore_for_file: must_be_immutable
 class TrendingContainerScreen extends StatelessWidget {

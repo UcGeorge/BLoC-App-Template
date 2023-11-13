@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/notification_screen/models/notification_model.dart';
+import '../models/notification_model.dart';
 part 'notification_event.dart';
 part 'notification_state.dart';
 

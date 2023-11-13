@@ -1,8 +1,10 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
+import '../models/trending_model.dart';
 import '../models/trendingposts_item_model.dart';
-import 'package:george_u_s_application1/presentation/trending_page/models/trending_model.dart';
+
 part 'trending_event.dart';
 part 'trending_state.dart';
 

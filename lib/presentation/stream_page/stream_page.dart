@@ -1,9 +1,10 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
 import '../stream_page/widgets/stream_item_widget.dart';
 import 'bloc/stream_bloc.dart';
 import 'models/stream_item_model.dart';
 import 'models/stream_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
 
 // ignore_for_file: must_be_immutable
 class StreamPage extends StatefulWidget {

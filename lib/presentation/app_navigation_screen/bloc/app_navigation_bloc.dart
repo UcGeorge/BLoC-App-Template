@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/app_navigation_screen/models/app_navigation_model.dart';
+import '../models/app_navigation_model.dart';
 part 'app_navigation_event.dart';
 part 'app_navigation_state.dart';
 

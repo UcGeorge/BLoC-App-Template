@@ -1,7 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/profile_page/models/profile_model.dart';
+import '../models/profile_model.dart';
+
 part 'profile_event.dart';
 part 'profile_state.dart';
 

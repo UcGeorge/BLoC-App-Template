@@ -1,7 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/for_you_screen/models/for_you_model.dart';
+import '../models/for_you_model.dart';
+
 part 'for_you_event.dart';
 part 'for_you_state.dart';
 

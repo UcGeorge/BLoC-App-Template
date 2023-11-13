@@ -1,11 +1,12 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
+import '../../widgets/custom_icon_button.dart';
+import '../../widgets/custom_text_form_field.dart';
 import '../comments_screen/widgets/commentlist_item_widget.dart';
 import 'bloc/comments_bloc.dart';
 import 'models/commentlist_item_model.dart';
 import 'models/comments_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_icon_button.dart';
-import 'package:george_u_s_application1/widgets/custom_text_form_field.dart';
 
 class CommentsScreen extends StatelessWidget {
   const CommentsScreen({Key? key}) : super(key: key);

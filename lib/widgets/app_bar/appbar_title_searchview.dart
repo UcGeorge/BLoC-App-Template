@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_search_view.dart';
+
+import '../../core/app_export.dart';
+import '../custom_search_view.dart';
 
 // ignore: must_be_immutable
 class AppbarTitleSearchview extends StatelessWidget {

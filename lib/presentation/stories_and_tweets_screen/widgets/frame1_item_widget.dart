@@ -1,7 +1,8 @@
-import '../models/frame1_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_outlined_button.dart';
+
+import '../../../core/app_export.dart';
+import '../../../widgets/custom_outlined_button.dart';
+import '../models/frame1_item_model.dart';
 
 // ignore: must_be_immutable
 class Frame1ItemWidget extends StatelessWidget {

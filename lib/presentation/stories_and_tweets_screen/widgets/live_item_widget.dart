@@ -1,7 +1,8 @@
-import '../models/live_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_icon_button.dart';
+
+import '../../../core/app_export.dart';
+import '../../../widgets/custom_icon_button.dart';
+import '../models/live_item_model.dart';
 
 // ignore: must_be_immutable
 class LiveItemWidget extends StatelessWidget {
@@ -28,7 +29,7 @@ class LiveItemWidget extends StatelessWidget {
               padding: EdgeInsets.all(15.h),
               decoration: IconButtonStyleHelper.fillDeepPurpleATL32,
               child: CustomImageView(
-                imagePath: liveItemModelObj?.send,
+                imagePath: liveItemModelObj.send,
               ),
             ),
             SizedBox(height: 9.v),

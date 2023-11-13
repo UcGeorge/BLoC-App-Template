@@ -1,7 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/chat_screen/models/chat_model.dart';
+import '../models/chat_model.dart';
+
 part 'chat_event.dart';
 part 'chat_state.dart';
 

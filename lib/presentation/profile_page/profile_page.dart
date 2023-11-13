@@ -1,7 +1,8 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
 import 'bloc/profile_bloc.dart';
 import 'models/profile_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);

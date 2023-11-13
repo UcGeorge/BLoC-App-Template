@@ -1,6 +1,6 @@
 import '../models/notifications_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../../core/app_export.dart';
 
 // ignore: must_be_immutable
 class NotificationsItemWidget extends StatelessWidget {
@@ -18,7 +18,7 @@ class NotificationsItemWidget extends StatelessWidget {
     return Row(
       children: [
         CustomImageView(
-          imagePath: notificationsItemModelObj?.image,
+          imagePath: notificationsItemModelObj.image,
           height: 54.v,
           width: 52.h,
           radius: BorderRadius.circular(

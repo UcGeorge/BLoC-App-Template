@@ -1,11 +1,11 @@
 import 'bloc/login_bloc.dart';
 import 'models/login_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_elevated_button.dart';
-import 'package:george_u_s_application1/widgets/custom_outlined_button.dart';
-import 'package:george_u_s_application1/domain/facebookauth/facebook_auth_helper.dart';
-import 'package:george_u_s_application1/domain/googleauth/google_auth_helper.dart';
+import '../../core/app_export.dart';
+import '../../widgets/custom_elevated_button.dart';
+import '../../widgets/custom_outlined_button.dart';
+import '../../domain/facebookauth/facebook_auth_helper.dart';
+import '../../domain/googleauth/google_auth_helper.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);

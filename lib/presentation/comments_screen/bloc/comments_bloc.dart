@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import '/core/app_export.dart';
 import '../models/commentlist_item_model.dart';
-import 'package:george_u_s_application1/presentation/comments_screen/models/comments_model.dart';
+import '../models/comments_model.dart';
 part 'comments_event.dart';
 part 'comments_state.dart';
 

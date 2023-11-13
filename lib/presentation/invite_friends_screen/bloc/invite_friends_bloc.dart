@@ -1,8 +1,10 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
+import '../models/invite_friends_model.dart';
 import '../models/invitefriends_item_model.dart';
-import 'package:george_u_s_application1/presentation/invite_friends_screen/models/invite_friends_model.dart';
+
 part 'invite_friends_event.dart';
 part 'invite_friends_state.dart';
 

@@ -1,6 +1,6 @@
 import '../models/fortysix_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../../core/app_export.dart';
 
 // ignore: must_be_immutable
 class FortysixItemWidget extends StatelessWidget {
@@ -18,7 +18,7 @@ class FortysixItemWidget extends StatelessWidget {
     return SizedBox(
       width: 117.h,
       child: CustomImageView(
-        imagePath: fortysixItemModelObj?.fortySix,
+        imagePath: fortysixItemModelObj.fortySix,
         height: 161.v,
         width: 117.h,
         radius: BorderRadius.circular(

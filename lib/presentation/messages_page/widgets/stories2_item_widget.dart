@@ -1,6 +1,6 @@
 import '../models/stories2_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../../core/app_export.dart';
 
 // ignore: must_be_immutable
 class Stories2ItemWidget extends StatelessWidget {
@@ -28,7 +28,7 @@ class Stories2ItemWidget extends StatelessWidget {
                 alignment: Alignment.bottomRight,
                 children: [
                   CustomImageView(
-                    imagePath: stories2ItemModelObj?.roy,
+                    imagePath: stories2ItemModelObj.roy,
                     height: 54.v,
                     width: 52.h,
                     radius: BorderRadius.circular(

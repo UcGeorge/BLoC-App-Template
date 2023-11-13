@@ -1,7 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/live_screen/models/live_model.dart';
+import '../models/live_model.dart';
+
 part 'live_event.dart';
 part 'live_state.dart';
 

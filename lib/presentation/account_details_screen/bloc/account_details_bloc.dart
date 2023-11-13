@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '/core/app_export.dart';
 import '../models/fortysix_item_model.dart';
 import '../models/widget_item_model.dart';
-import 'package:george_u_s_application1/presentation/account_details_screen/models/account_details_model.dart';
+import '../models/account_details_model.dart';
 part 'account_details_event.dart';
 part 'account_details_state.dart';
 

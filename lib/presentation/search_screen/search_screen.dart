@@ -3,8 +3,8 @@ import 'bloc/search_bloc.dart';
 import 'models/search_item_model.dart';
 import 'models/search_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_search_view.dart';
+import '../../core/app_export.dart';
+import '../../widgets/custom_search_view.dart';
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({Key? key}) : super(key: key);

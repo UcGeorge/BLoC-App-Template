@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '/core/app_export.dart';
 import '../models/profiles1_item_model.dart';
 import '../models/forty_item_model.dart';
-import 'package:george_u_s_application1/presentation/daily_new_page/models/daily_new_model.dart';
+import '../models/daily_new_model.dart';
 part 'daily_new_event.dart';
 part 'daily_new_state.dart';
 

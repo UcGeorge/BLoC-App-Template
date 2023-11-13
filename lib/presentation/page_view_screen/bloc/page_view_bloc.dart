@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import '/core/app_export.dart';
 import '../models/pageview_item_model.dart';
-import 'package:george_u_s_application1/presentation/page_view_screen/models/page_view_model.dart';
+import '../models/page_view_model.dart';
 part 'page_view_event.dart';
 part 'page_view_state.dart';
 

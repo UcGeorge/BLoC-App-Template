@@ -1,7 +1,7 @@
 import 'bloc/app_navigation_bloc.dart';
 import 'models/app_navigation_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../core/app_export.dart';
 
 class AppNavigationScreen extends StatelessWidget {
   const AppNavigationScreen({Key? key})

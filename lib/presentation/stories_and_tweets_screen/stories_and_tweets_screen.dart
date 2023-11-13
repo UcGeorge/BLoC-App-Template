@@ -1,14 +1,15 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
+import '../../widgets/app_bar/appbar_title_searchview.dart';
+import '../../widgets/app_bar/appbar_trailing_iconbutton.dart';
+import '../../widgets/app_bar/custom_app_bar.dart';
 import '../stories_and_tweets_screen/widgets/frame1_item_widget.dart';
 import '../stories_and_tweets_screen/widgets/live_item_widget.dart';
 import 'bloc/stories_and_tweets_bloc.dart';
 import 'models/frame1_item_model.dart';
 import 'models/live_item_model.dart';
 import 'models/stories_and_tweets_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_title_searchview.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_trailing_iconbutton.dart';
-import 'package:george_u_s_application1/widgets/app_bar/custom_app_bar.dart';
 
 class StoriesAndTweetsScreen extends StatelessWidget {
   const StoriesAndTweetsScreen({Key? key}) : super(key: key);

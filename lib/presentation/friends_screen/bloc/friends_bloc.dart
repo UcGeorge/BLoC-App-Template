@@ -1,9 +1,11 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
-import '../models/socialmedialist_item_model.dart';
 import '../models/followlist_item_model.dart';
-import 'package:george_u_s_application1/presentation/friends_screen/models/friends_model.dart';
+import '../models/friends_model.dart';
+import '../models/socialmedialist_item_model.dart';
+
 part 'friends_event.dart';
 part 'friends_state.dart';
 

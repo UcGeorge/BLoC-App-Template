@@ -1,6 +1,8 @@
 import 'dart:convert';
+
 import 'package:dio/dio.dart';
 import 'package:flutter_login_facebook/flutter_login_facebook.dart';
+
 import 'facebook_user.dart';
 
 class FacebookAuthHelper {

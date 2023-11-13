@@ -1,15 +1,16 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
+import '../../widgets/app_bar/appbar_leading_image.dart';
+import '../../widgets/app_bar/appbar_trailing_image.dart';
+import '../../widgets/app_bar/custom_app_bar.dart';
+import '../../widgets/custom_elevated_button.dart';
+import '../../widgets/custom_floating_button.dart';
+import '../../widgets/custom_text_form_field.dart';
 import '../page_view_screen/widgets/pageview_item_widget.dart';
 import 'bloc/page_view_bloc.dart';
 import 'models/page_view_model.dart';
 import 'models/pageview_item_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_leading_image.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_trailing_image.dart';
-import 'package:george_u_s_application1/widgets/app_bar/custom_app_bar.dart';
-import 'package:george_u_s_application1/widgets/custom_elevated_button.dart';
-import 'package:george_u_s_application1/widgets/custom_floating_button.dart';
-import 'package:george_u_s_application1/widgets/custom_text_form_field.dart';
 
 class PageViewScreen extends StatelessWidget {
   const PageViewScreen({Key? key}) : super(key: key);

@@ -1,6 +1,7 @@
-import '../models/stream_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+
+import '../../../core/app_export.dart';
+import '../models/stream_item_model.dart';
 
 // ignore: must_be_immutable
 class StreamItemWidget extends StatelessWidget {
@@ -21,7 +22,7 @@ class StreamItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: streamItemModelObj?.twentySeven,
+            imagePath: streamItemModelObj.twentySeven,
             height: 540.v,
             width: 356.h,
             radius: BorderRadius.circular(

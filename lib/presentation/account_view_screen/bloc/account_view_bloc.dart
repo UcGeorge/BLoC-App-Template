@@ -1,7 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/account_view_screen/models/account_view_model.dart';
+import '../models/account_view_model.dart';
+
 part 'account_view_event.dart';
 part 'account_view_state.dart';
 

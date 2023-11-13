@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '/core/app_export.dart';
 import '../models/stories1_item_model.dart';
 import '../models/frame_item_model.dart';
-import 'package:george_u_s_application1/presentation/stories_screen/models/stories_model.dart';
+import '../models/stories_model.dart';
 part 'stories_event.dart';
 part 'stories_state.dart';
 

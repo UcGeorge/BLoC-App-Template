@@ -1,13 +1,14 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
+import '../../widgets/app_bar/appbar_title_searchview.dart';
+import '../../widgets/app_bar/appbar_trailing_image.dart';
+import '../../widgets/app_bar/custom_app_bar.dart';
+import '../trending_page/trending_page.dart';
 import '../trending_tab_container_page/widgets/stories_item_widget.dart';
 import 'bloc/trending_tab_container_bloc.dart';
 import 'models/stories_item_model.dart';
 import 'models/trending_tab_container_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/trending_page/trending_page.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_title_searchview.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_trailing_image.dart';
-import 'package:george_u_s_application1/widgets/app_bar/custom_app_bar.dart';
 
 class TrendingTabContainerPage extends StatefulWidget {
   const TrendingTabContainerPage({Key? key}) : super(key: key);

@@ -1,7 +1,8 @@
-import '../models/invitefriends_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_icon_button.dart';
+
+import '../../../core/app_export.dart';
+import '../../../widgets/custom_icon_button.dart';
+import '../models/invitefriends_item_model.dart';
 
 // ignore: must_be_immutable
 class InvitefriendsItemWidget extends StatelessWidget {
@@ -26,7 +27,7 @@ class InvitefriendsItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: invitefriendsItemModelObj?.kevinAllsrub,
+            imagePath: invitefriendsItemModelObj.kevinAllsrub,
             height: 50.adaptSize,
             width: 50.adaptSize,
             radius: BorderRadius.circular(
@@ -66,7 +67,7 @@ class InvitefriendsItemWidget extends StatelessWidget {
               width: 24.adaptSize,
               padding: EdgeInsets.all(6.h),
               child: CustomImageView(
-                imagePath: invitefriendsItemModelObj?.checkmark,
+                imagePath: invitefriendsItemModelObj.checkmark,
               ),
             ),
           ),

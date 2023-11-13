@@ -1,12 +1,13 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
+import '../../widgets/app_bar/appbar_leading_image.dart';
+import '../../widgets/app_bar/appbar_subtitle_one.dart';
+import '../../widgets/app_bar/custom_app_bar.dart';
 import '../invite_friends_screen/widgets/invitefriends_item_widget.dart';
 import 'bloc/invite_friends_bloc.dart';
 import 'models/invite_friends_model.dart';
 import 'models/invitefriends_item_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_leading_image.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_subtitle_one.dart';
-import 'package:george_u_s_application1/widgets/app_bar/custom_app_bar.dart';
 
 class InviteFriendsScreen extends StatelessWidget {
   const InviteFriendsScreen({Key? key}) : super(key: key);

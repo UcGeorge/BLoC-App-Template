@@ -1,10 +1,10 @@
 import 'bloc/detailed_profile_bloc.dart';
 import 'models/detailed_profile_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_leading_image.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_subtitle_two.dart';
-import 'package:george_u_s_application1/widgets/app_bar/custom_app_bar.dart';
+import '../../core/app_export.dart';
+import '../../widgets/app_bar/appbar_leading_image.dart';
+import '../../widgets/app_bar/appbar_subtitle_two.dart';
+import '../../widgets/app_bar/custom_app_bar.dart';
 
 class DetailedProfileScreen extends StatelessWidget {
   const DetailedProfileScreen({Key? key}) : super(key: key);

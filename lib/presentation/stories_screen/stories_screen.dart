@@ -5,15 +5,15 @@ import 'models/frame_item_model.dart';
 import 'models/stories1_item_model.dart';
 import 'models/stories_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/messages_page/messages_page.dart';
-import 'package:george_u_s_application1/presentation/notifications_page/notifications_page.dart';
-import 'package:george_u_s_application1/presentation/profile_page/profile_page.dart';
-import 'package:george_u_s_application1/presentation/trending_tab_container_page/trending_tab_container_page.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_title_searchview.dart';
-import 'package:george_u_s_application1/widgets/app_bar/appbar_trailing_iconbutton.dart';
-import 'package:george_u_s_application1/widgets/app_bar/custom_app_bar.dart';
-import 'package:george_u_s_application1/widgets/custom_bottom_bar.dart';
+import '../../core/app_export.dart';
+import '../messages_page/messages_page.dart';
+import '../notifications_page/notifications_page.dart';
+import '../profile_page/profile_page.dart';
+import '../trending_tab_container_page/trending_tab_container_page.dart';
+import '../../widgets/app_bar/appbar_title_searchview.dart';
+import '../../widgets/app_bar/appbar_trailing_iconbutton.dart';
+import '../../widgets/app_bar/custom_app_bar.dart';
+import '../../widgets/custom_bottom_bar.dart';
 
 class StoriesScreen extends StatelessWidget {
   StoriesScreen({Key? key})

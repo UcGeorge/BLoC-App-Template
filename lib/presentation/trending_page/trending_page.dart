@@ -1,9 +1,10 @@
+import 'package:flutter/material.dart';
+
+import '../../core/app_export.dart';
 import '../trending_page/widgets/trendingposts_item_widget.dart';
 import 'bloc/trending_bloc.dart';
 import 'models/trending_model.dart';
 import 'models/trendingposts_item_model.dart';
-import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
 
 // ignore_for_file: must_be_immutable
 class TrendingPage extends StatefulWidget {

@@ -1,6 +1,7 @@
-import '../models/forty_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+
+import '../../../core/app_export.dart';
+import '../models/forty_item_model.dart';
 
 // ignore: must_be_immutable
 class FortyItemWidget extends StatelessWidget {
@@ -18,7 +19,7 @@ class FortyItemWidget extends StatelessWidget {
     return SizedBox(
       width: 167.h,
       child: CustomImageView(
-        imagePath: fortyItemModelObj?.forty,
+        imagePath: fortyItemModelObj.forty,
         height: 167.adaptSize,
         width: 167.adaptSize,
         radius: BorderRadius.circular(

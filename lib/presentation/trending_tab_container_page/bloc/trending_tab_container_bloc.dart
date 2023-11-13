@@ -1,8 +1,10 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
 import '../models/stories_item_model.dart';
-import 'package:george_u_s_application1/presentation/trending_tab_container_page/models/trending_tab_container_model.dart';
+import '../models/trending_tab_container_model.dart';
+
 part 'trending_tab_container_event.dart';
 part 'trending_tab_container_state.dart';
 

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '/core/app_export.dart';
 import '../models/live_item_model.dart';
 import '../models/frame1_item_model.dart';
-import 'package:george_u_s_application1/presentation/stories_and_tweets_screen/models/stories_and_tweets_model.dart';
+import '../models/stories_and_tweets_model.dart';
 part 'stories_and_tweets_event.dart';
 part 'stories_and_tweets_state.dart';
 

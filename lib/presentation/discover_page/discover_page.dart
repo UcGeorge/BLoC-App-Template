@@ -3,7 +3,7 @@ import 'bloc/discover_bloc.dart';
 import 'models/discover_model.dart';
 import 'models/profiles_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../core/app_export.dart';
 
 // ignore_for_file: must_be_immutable
 class DiscoverPage extends StatefulWidget {

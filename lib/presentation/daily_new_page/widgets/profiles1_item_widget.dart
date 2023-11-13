@@ -1,6 +1,6 @@
 import '../models/profiles1_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../../core/app_export.dart';
 
 // ignore: must_be_immutable
 class Profiles1ItemWidget extends StatelessWidget {
@@ -22,7 +22,7 @@ class Profiles1ItemWidget extends StatelessWidget {
         alignment: Alignment.bottomCenter,
         children: [
           CustomImageView(
-            imagePath: profiles1ItemModelObj?.nineteen,
+            imagePath: profiles1ItemModelObj.nineteen,
             height: 179.v,
             width: 147.h,
             radius: BorderRadius.circular(

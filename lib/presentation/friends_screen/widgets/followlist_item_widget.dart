@@ -1,7 +1,8 @@
-import '../models/followlist_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_outlined_button.dart';
+
+import '../../../core/app_export.dart';
+import '../../../widgets/custom_outlined_button.dart';
+import '../models/followlist_item_model.dart';
 
 // ignore: must_be_immutable
 class FollowlistItemWidget extends StatelessWidget {
@@ -26,7 +27,7 @@ class FollowlistItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: followlistItemModelObj?.kevinAllsrub,
+            imagePath: followlistItemModelObj.kevinAllsrub,
             height: 50.adaptSize,
             width: 50.adaptSize,
             radius: BorderRadius.circular(

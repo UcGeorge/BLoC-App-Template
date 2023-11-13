@@ -1,12 +1,12 @@
 import 'bloc/sign_up_bloc.dart';
 import 'models/sign_up_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/core/utils/validation_functions.dart';
-import 'package:george_u_s_application1/widgets/custom_elevated_button.dart';
-import 'package:george_u_s_application1/widgets/custom_icon_button.dart';
-import 'package:george_u_s_application1/widgets/custom_radio_button.dart';
-import 'package:george_u_s_application1/widgets/custom_text_form_field.dart';
+import '../../core/app_export.dart';
+import '../../core/utils/validation_functions.dart';
+import '../../widgets/custom_elevated_button.dart';
+import '../../widgets/custom_icon_button.dart';
+import '../../widgets/custom_radio_button.dart';
+import '../../widgets/custom_text_form_field.dart';
 
 // ignore_for_file: must_be_immutable
 class SignUpScreen extends StatelessWidget {

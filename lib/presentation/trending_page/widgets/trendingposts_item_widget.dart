@@ -1,6 +1,6 @@
 import '../models/trendingposts_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
+import '../../../core/app_export.dart';
 
 // ignore: must_be_immutable
 class TrendingpostsItemWidget extends StatelessWidget {
@@ -30,7 +30,7 @@ class TrendingpostsItemWidget extends StatelessWidget {
               alignment: Alignment.center,
               children: [
                 CustomImageView(
-                  imagePath: trendingpostsItemModelObj?.image,
+                  imagePath: trendingpostsItemModelObj.image,
                   height: 221.v,
                   width: 382.h,
                   radius: BorderRadius.circular(

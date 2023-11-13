@@ -1,7 +1,8 @@
-import '../models/frame_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:george_u_s_application1/core/app_export.dart';
-import 'package:george_u_s_application1/widgets/custom_elevated_button.dart';
+
+import '../../../core/app_export.dart';
+import '../../../widgets/custom_elevated_button.dart';
+import '../models/frame_item_model.dart';
 
 // ignore: must_be_immutable
 class FrameItemWidget extends StatelessWidget {
@@ -28,7 +29,7 @@ class FrameItemWidget extends StatelessWidget {
               alignment: Alignment.topLeft,
               children: [
                 CustomImageView(
-                  imagePath: frameItemModelObj?.lIVEWeTheFest,
+                  imagePath: frameItemModelObj.lIVEWeTheFest,
                   height: 144.v,
                   width: 147.h,
                   radius: BorderRadius.circular(

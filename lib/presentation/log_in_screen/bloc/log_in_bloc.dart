@@ -1,7 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+
 import '/core/app_export.dart';
-import 'package:george_u_s_application1/presentation/log_in_screen/models/log_in_model.dart';
+import '../models/log_in_model.dart';
+
 part 'log_in_event.dart';
 part 'log_in_state.dart';
 
